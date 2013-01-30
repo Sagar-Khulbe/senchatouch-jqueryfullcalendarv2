@@ -1,4 +1,8 @@
 SenchaTouch-JqueryFullcalendarv2
 ================================
 
-Fullcalendar implementation  compatible with  ST  v2
+Arshaw Fullcalendar implementation  compatible with  ST  v2
+
+
+ [View Demo](http://htmlpreview.github.com/?tomalex0.github.com/senchatouch-jqueryfullcalendarv2/)
+-
