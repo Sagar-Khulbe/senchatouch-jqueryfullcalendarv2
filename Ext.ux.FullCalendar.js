@@ -12,7 +12,7 @@ Ext.define('Ext.ux.FullCalendar', {
 	
         me.callParent(arguments);
 	me.on('painted',function(a){
-	   me.renderFullCalendar();
+       me.renderFullCalendar();
             me.applySwipeEvent();
             me.changeCalendarView(me.getDefaultview());
 	    me.getScrollable().getScroller().on('scrollstart',function(){
@@ -22,7 +22,7 @@ Ext.define('Ext.ux.FullCalendar', {
 	    me.getScrollable().getScroller().on('scrollend',function(){
 		me.resumeEvents();
 	    });
-        });
+    },me, {single:true});
 	me.bottomSegmentedBtn = Ext.create('Ext.SegmentedButton',{
 	    xtype : 'segmentedbutton',
 	    items: [{
